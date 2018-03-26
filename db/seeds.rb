@@ -23,3 +23,14 @@ end
   user.profile = Customer.new(username: "customer#{i + 1}")
   user.save
 end
+
+Category.create(name: "Computers", description: "" )
+
+Category.create(name: "Phone", description: "" )
+
+Category.create(name: "Accesories", description: "" )
+
+
+
+
+
