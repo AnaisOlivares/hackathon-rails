@@ -5,10 +5,7 @@
   <%= @product.name %>
 </p>
 
-<p>
-  <strong>Url:</strong>
-  <%= @product.url %>
-</p>
+<%= image_tag(@product.url, :alt => @product.name, width:'500') %>
 
 <p>
   <strong>Quantity:</strong>
