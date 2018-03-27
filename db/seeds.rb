@@ -84,69 +84,69 @@
 #                amount: "516", 
 #                category_id:"1")
 
-Product.create(name:"HP Notebook 13,3 Intel Core i5 8 GB 256 GB SDD Gris", 
-               url: "https://falabella.scene7.com/is/image/FalabellaPE/15773830_1?$producto308$&wid=472&hei=472", 
-               quantity: "15", 
-               amount: "1520", 
-               category_id:"1")
+# Product.create(name:"HP Notebook 13,3 Intel Core i5 8 GB 256 GB SDD Gris", 
+#                url: "https://falabella.scene7.com/is/image/FalabellaPE/15773830_1?$producto308$&wid=472&hei=472", 
+#                quantity: "15", 
+#                amount: "1520", 
+#                category_id:"1")
 
 Product.create(name: "Honor 6X",
                url: "https://cdnmedia.hihonor.com/us/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/6/x/6x-gallery-grey-03.jpg",
                quantity: 100,
-               amount: 179.99,
+               ammount: 179.99,
                category_id: 2)
 
 Product.create(name: "Honor view10 128GB",
                 url: "https://cdnmedia.hihonor.com/us/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/h/o/honor-v10-gallery-blue-03.jpg",
                 quantity: 100,
-                amount: 499,
+                ammount: 499,
                 category_id: 2)
 
 Product.create(name: "Honor 8",
                 url: "https://cdnmedia.hihonor.com/us/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/h/o/honor-8-blue-02_2.jpg",
                 quantity: 100,
-                amount: 399.99,
+                ammount: 399.99,
                 category_id: 2)
 
 Product.create(name: "Honor 7X",
                 url: "https://cdnmedia.hihonor.com/us/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/f/r/free_gift.jpg",
                 quantity: 50,
-                amount: 199.99,
+                ammount: 199.99,
                 category_id: 2)
 
 Product.create(name: "ASUS ZenFone 3 Deluxe 5.5'' 64GB",
                 url: "https://www.asus.com/media/global/gallery/KlTfIKEMmPK3E67g_setting_fff_1_90_end_500.png",
                 quantity: 40,
-                amount: 321.83,
+                ammount: 321.83,
                 category_id: 2)
 
 Product.create(name: "ASUS Zenfone 5 5.5'' 64GB",
                 url: "https://www.asus.com/media/global/gallery/Q3DlpmmjKTXkXffG_setting_fff_1_90_end_500.png",
                 quantity: 70,
-                amount: 599,
+                ammount: 599,
                 category_id: 2)
 
 Product.create(name: "ASUS ZenFone 4 Selfie Pro 5.5'' 64GB",
                 url: "https://www.asus.com/media/global/gallery/eXB1N2wS2oSC6Z4C_setting_fff_1_90_end_500.png",
                 quantity: 35,
-                amount: 359,
+                ammount: 359,
                 category_id: 2)
 
 Product.create(name: "ASUS ZenFone 3 Ultra 6.8'' 64GB/128GB",
                 url: "https://www.asus.com/media/global/products/IIeuNzWPzXAGeQLN/Ej1WrlqG1OgfaeKH_setting_fff_1_90_end_500.png",
                 quantity: 20,
-                amount: 359.99,
+                ammount: 359.99,
                 category_id: 2)
 
 Product.create(name: "ASUS ZenFone 3 MAX 5.2'' 16 GB",
                 url: "https://www.asus.com/media/global/gallery/SvhwXTmtRjQ3Quwl_setting_fff_1_90_end_500.png",
                 quantity: 50,
-                amount: 147.27,
+                ammount: 147.27,
                 category_id: 2)
 
 Product.create(name: "ASUS ZenFone Zoom 5.5'' 64GB",
                 url: "https://www.asus.com/media/global/products/BXbNqJplzZiLmk6G/0oebm8Mbxxy8uupM_setting_fff_1_90_end_500.png",
                 quantity: 20,
-                amount: 289.99,
+                ammount: 289.99,
                 category_id: 2)
 

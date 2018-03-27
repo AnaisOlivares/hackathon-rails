@@ -1,12 +1,17 @@
 <nav>
   <div class="nav-wrapper teal ">
+    <div class="div-logo">
+      <a href="#" class="brand-logo font-logo" id="font-screen">
+        <img src="../assets/img/img-logo/logo-title.png" class="responsive-img logo-principal" alt="">
+      </a>
+    </div>
     <a href="#" class="brand-logo center">Logo</a>
     <ul id=" nav-mobile" class="left ">
       <%= link_to  "Home", unauthenticated_root_path %>
     </ul>
     <ul id=" nav-mobile" class="left ">
-        <%= link_to  "Products", products_path %>
-      </ul>
+      <%= link_to  "Products", products_path %>
+    </ul>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li>
         <a class="dropdown-button" href="#!" data-activates="dropdown1">
