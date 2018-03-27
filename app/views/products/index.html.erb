@@ -16,7 +16,7 @@
     <% @products.each do |product| %>
       <tr>
         <td><%= product.name %></td>
-        <td><%= product.url %></td>
+        <td><%= image_tag(product.url, :alt => product.name, width:'100') %></td>
         <td><%= product.category.name %></td>
         <td><%= link_to 'Show', product %></td>
       </tr>
