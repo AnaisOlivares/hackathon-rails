@@ -25,6 +25,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'will_paginate'
+gem 'kaminari'
+# gem 'kaminari-materialize'
+
+gem 'gretel'
+
 gem 'devise'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
 # gem 'materialize-sass', '~> 1.0.0.alpha4'
