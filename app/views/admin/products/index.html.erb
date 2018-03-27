@@ -18,7 +18,7 @@
     <% @products.each do |product| %>
       <tr>
         <td><%= product.name %></td>
-        <td><%= product.url %></td>
+        <td><%= image_tag(product.url, :alt => product.name, width:'100') %></td>
         <td><%= product.quantity %></td>
         <td><%= product.amount %></td>
         <td><%= product.category.id %></td>
