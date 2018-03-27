@@ -19,6 +19,7 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', function() {
-  $('.dropdown-button').dropdown();
-  $('select').material_select();
+  $('.dropdown-trigger').dropdown();
+  // $('select').material_select();
+  $('.sidenav').sidenav();
 });
