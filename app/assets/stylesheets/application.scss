@@ -24,3 +24,22 @@
  .navbar-color {
    background-color: #0b061c;
  }
+
+ .main-background {
+  background-image: image-url('main-background.png');
+}
+
+nav {
+
+  .nav-wrapper {
+    height: 80px;
+
+    .brand-logo {
+      height: 80px;
+      padding: 10px 20px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
