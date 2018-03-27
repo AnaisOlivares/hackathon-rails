@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-# Gema para heroku
-ruby '2.4.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
@@ -28,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
 # gem 'materialize-sass', '~> 1.0.0.alpha4'
-gem 'materialize-sass', '~> 1.0.0.beta'
+gem 'materialize-sass', '~> 0.100.1'
 gem 'jquery-ui-rails'
 
 gem 'rubocop', '~> 0.53.0', require: false
@@ -53,11 +51,8 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+  
 end
-
-group :production do
-  gem 'rails_12factor'
-end 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
