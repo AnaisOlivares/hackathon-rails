@@ -15,30 +15,59 @@
  *= require default
  *= require_self
  */
+
  @import "materialize";
+ @import "variables.scss";
 
- .try {
-   color:white;
+.navbar-color {
+   background-color: $main_color;
  }
 
- .navbar-color {
-   background-color: #0b061c;
- }
-
- .main-background {
+.main-background {
   background-image: image-url('main-background.png');
-}
-
-nav {
-
-  .nav-wrapper {
+  background-size: cover;
+  background-position: center;
+  nav {
     height: 80px;
 
-    .brand-logo {
+    .nav-wrapper {
       height: 80px;
-      padding: 10px 20px;
-      img {
-        height: 100%;
+
+      .brand-logo {
+        height: 80px;
+        padding: 10px 20px;
+        text-align: center;
+        float: none;
+        
+        @media (min-width: $break_med) {
+          text-align: left;
+        }
+
+        img {
+          height: 100%;
+        }
+      }
+
+      ul {
+        height: 80px;
+        line-height: 80px;
+      }
+    }
+  }
+}
+
+.main-nav {
+  background-color: $main_color;
+  // width: 100%;
+  li {
+    text-align: center;
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.2em;
+      transition: .25s;
+      &:hover {
+        color: $main_red;
       }
     }
   }
