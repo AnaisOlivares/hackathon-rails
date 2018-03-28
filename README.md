@@ -30,6 +30,8 @@ TECHPOINT es una web donde podrás visualizar el catálogo de productos tecnoló
   * [Marvel](https://marvelapp.com/151879d6/screen/40364827)
 ## RESULTADO
 ![capture-1](https://user-images.githubusercontent.com/32307145/38041135-a2695ba6-3276-11e8-9496-b6479a0ab130.png)
+![capture-2](https://user-images.githubusercontent.com/32282183/38041852-74ed1e72-3278-11e8-8eb0-d01e55c12fed.png)
+![capture-3](https://user-images.githubusercontent.com/32282183/38041879-84c5b17e-3278-11e8-8e53-b2cc8e53df72.png)
 ### Integrantes
 * Lizbeth
 * Araceli
