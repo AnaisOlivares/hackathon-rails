@@ -18,11 +18,6 @@
 #  profile_id             :integer
 #  profile_type           :string
 #
-# Indexes
-#
-#  index_users_on_email                 (email) UNIQUE
-#  index_users_on_reset_password_token  (reset_password_token) UNIQUE
-#
 
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:

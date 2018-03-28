@@ -2,6 +2,9 @@
 
 <h1>Listing Products</h1>
 
+<%# #app/views/issues/index.html.erb %>
+<% breadcrumb :products %>
+
 <table>
   <thead>
     <tr>
@@ -22,15 +25,9 @@
         <td><%= product.quantity %></td>
         <td><span>$</span><%= product.amount %></td>
         <td><%= product.category.id %></td>
-<<<<<<< HEAD:app/views/admin/products/index.html.erb
-        <td><i class="material-icons">search</i><%= link_to 'Show', admin_product_path(product) %></td>
-        <td><i class="material-icons">edit</i><%= link_to 'Edit', edit_admin_product_path(product)%></td>
-        <td><i class="material-icons">delete</i><%= link_to 'Destroy', admin_product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-=======
         <td><%= link_to 'Show', lab_admin_product_path(product) %></td>
         <td><%= link_to 'Edit', edit_lab_admin_product_path(product) %></td>
         <td><%= link_to 'Destroy', lab_admin_product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></td>
->>>>>>> f978a78534f784694df8826be6de966e58fad2fc:app/views/lab/admin/products/index.html.erb
       </tr>
     <% end %>
   </tbody>
