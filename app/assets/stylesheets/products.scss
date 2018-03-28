@@ -2,7 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "materialize";
-@import "font-awesome";
+@import "variables";
+
+h4, p {
+  color: $white-text;
+}
 
 .title {
   font-weight: 700;
@@ -30,7 +34,7 @@
 }
 
 @media(min-width: 600px) {
-  .mt-3-info {
-    margin-top: 3rem;
+  .mt-2-info {
+    margin-top: 2rem;
   }
 }

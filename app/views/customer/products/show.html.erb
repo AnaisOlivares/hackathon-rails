@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="col s12 m6 center-align mt-3-info">
+    <div class="col s12 m6 center-align mt-2-info">
       <p class="price">
         <span class="md-font-weight">$<%= @product.amount %></span>
       </p>
@@ -24,7 +24,7 @@
         <strong>Category:</strong>
         <%= @product.category.name %>
       </p>
-      <p class="text-uppercase valign-wrapper">
+      <p class="text-uppercase">
         <strong class="center-align">Share:</strong>
         <%= image_tag("facebook.svg", :alt => "facebook", width:'40') %>
         <%= image_tag("twitter.svg", :alt => "twitter", width:'40') %>
@@ -39,7 +39,5 @@
 
   </div>
 </div>
-
-
 
 <%= link_to 'Back', customer_products_path %>
