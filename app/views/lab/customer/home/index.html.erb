@@ -1,5 +1,11 @@
-<h1>Home Customer</h1>
+<h1 class="center-align">Welcome, customer.</h1>
 
-<ul>
+<div class="carousel carousel-slider" data-indicators="true">
+  <a class="carousel-item" href="#one!"><%= image_tag("banner_1.png", :alt => "Amiibo Banner") %></a>
+  <a class="carousel-item" href="#two!"><%= image_tag("banner_2.png", :alt => "Amiibo Banner") %></a>
+  <a class="carousel-item" href="#three!"><%= image_tag("banner_3.png", :alt => "Amiibo Banner") %></a>
+</div>
+
+<ul class="admin-list center-align">
   <li><%= link_to "Products", lab_customer_products_path %></li>
 </ul>
