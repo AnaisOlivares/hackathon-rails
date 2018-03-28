@@ -17,10 +17,10 @@
   </div>
 </nav>
 <nav>
-  <div class="nav-wrapper navbar-color">
-    <ul class="left hide-on-med-and-down main-nav row">
-      <li><%= link_to  "Home", unauthenticated_root_path, { :class=>"col s6" } %></li>
-      <li><%= link_to  "Products", products_path, { :class=>"col s6" } %></li>
+  <div class="nav-wrapper navbar-color row">
+    <ul class="left hide-on-med-and-down main-nav col s12">
+      <li class="col s6"><%= link_to  "Home", unauthenticated_root_path %></li>
+      <li class="col s6"><%= link_to  "Products", products_path %></li>
     </ul>
   </div>
 </nav>

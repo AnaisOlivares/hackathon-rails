@@ -22,8 +22,8 @@
   </nav>
 
   <nav>
-    <div class="nav-wrapper navbar-color">
-      <ul class="left hide-on-med-and-down main-nav row">
+    <div class="nav-wrapper navbar-color row">
+      <ul class="left hide-on-med-and-down main-nav col s12">
         <% if current_user.customer? %>
           <li class="col s6">
             <a href="<%= customer_home_index_path %>">Home</a>
