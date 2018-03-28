@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<%# # app/views/issues/show.html.erb %>
+<% breadcrumb :product, @product %>
+
+<p>
+  <strong>Name:</strong>
 <h4 class="center-align title text-uppercase mt-3">
   <%= @product.name %>
 </h4>
