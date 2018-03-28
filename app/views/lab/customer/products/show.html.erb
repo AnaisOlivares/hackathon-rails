@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<h4 class="center-align title text-uppercase mt-3">
+  <%= @product.name %>
+</h4>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="materialboxed">
+        <%= image_tag(@product.url, :alt => @product.name, width:'290') %>
+      </div>
+    </div>
+
+    <div class="col s12 m6 center-align mt-2-info">
+      <p class="price">
+        <span class="md-font-weight">$<%= @product.amount %></span>
+      </p>
+      <p>
+        <strong>Quantity:</strong>
+        <%= @product.quantity %>
+      </p>
+      <p>
+        <strong>Category:</strong>
+        <%= @product.category.name %>
+      </p>
+      <p class="text-uppercase">
+        <strong class="center-align">Share:</strong>
+        <%= image_tag("facebook.svg", :alt => "facebook", width:'40') %>
+        <%= image_tag("twitter.svg", :alt => "twitter", width:'40') %>
+      </p>
+      <p>
+        <i class="material-icons">favorite</i><strong class="ml-2">Add to wish list</strong>
+      </p>
+      <p>
+        <i class="material-icons">compare_arrows</i><strong class="ml-2">Compare</strong>
+      </p>    
+    </div>
+
+  </div>
+</div>
+
+<<<<<<< HEAD:app/views/customer/products/show.html.erb
+<%= link_to 'Back', customer_products_path %>
+=======
+
+
+<%= link_to 'Back', lab_customer_products_path %>
+>>>>>>> f978a78534f784694df8826be6de966e58fad2fc:app/views/lab/customer/products/show.html.erb
