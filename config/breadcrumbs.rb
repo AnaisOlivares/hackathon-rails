@@ -1,6 +1,6 @@
-crumb :root do
-  link "Home", root_path
-end
+# crumb :root do
+#   link "Home", root_path
+# end
 
 # crumb :projects do
 #   link "Projects", projects_path
@@ -26,3 +26,21 @@ end
 # files there. All *.rb files (e.g. `frontend.rb` or `products.rb`) in that
 # folder are loaded and reloaded automatically when you change them, just like
 # this file (`config/breadcrumbs.rb`).
+
+# config/breadcrumbs.rb
+ 
+# Root crumb
+crumb :root do
+  link "Home", root_path
+end
+ 
+# Issue list
+crumb :issues do
+  link "All issues", issues_path
+end
+ 
+# Issue
+crumb :issue do |issue|
+  link issue.title, issue
+  parent :issues
+end
