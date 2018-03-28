@@ -1,29 +1,33 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
+<h4 class="center-align title text-uppercase mt-3">
   <%= @product.name %>
-</p>
+</h4>
 
-<p>
-  <strong>Url:</strong>
-  <%= image_tag(@product.url, :alt => @product.name, width:'300') %>
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="materialboxed">
+        <%= image_tag(@product.url, :alt => @product.name, width:'290') %>
+      </div>
+    </div>
 
-<p>
-  <strong>Quantity:</strong>
-  <%= @product.quantity %>
-</p>
+    <div class="col s12 m6 center-align mt-2-info">
+      <p class="price">
+        <span class="md-font-weight">$<%= @product.amount %></span>
+      </p>
+      <p>
+        <strong>Quantity:</strong>
+        <%= @product.quantity %>
+      </p>
+      <p>
+        <strong>Category id:</strong>
+        <%= @product.category.id %>
+      </p>  
+    </div>
 
-<p>
-  <strong>Amount:</strong>
-  <%= @product.amount %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @product.category.id %>
-</p>
+  </div>
+</div>
 
 <%= link_to 'Edit', edit_lab_admin_product_path(@product) %> |
 <%= link_to 'Back', lab_admin_products_path %>

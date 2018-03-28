@@ -2,7 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "materialize";
-@import "variables.scss";
+@import "variables";
+
+h4, p, th, td {
+  color: $white-text;
+}
 
 .title {
   font-weight: 700;
@@ -34,8 +38,16 @@
   margin-top: 2rem;
 }
 
+table {
+  background-color: $productlist-box;
+}
+
+.editbox a {
+ color: $white-text;
+}
+
 @media(min-width: 600px) {
-  .mt-3-info {
-    margin-top: 3rem;
+  .mt-2-info {
+    margin-top: 2rem;
   }
 }

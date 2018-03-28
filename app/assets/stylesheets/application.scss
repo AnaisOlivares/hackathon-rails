@@ -19,14 +19,27 @@
  @import "materialize";
  @import "variables.scss";
 
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .navbar-color {
    background-color: $main_color;
+ }
+
+ .hero {
+   img {
+     width: 100%;
+   }
  }
 
 .main-background {
   background-image: image-url('main-background.png');
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
   nav {
     height: 80px;
 
@@ -80,7 +93,7 @@
 }
 
 .pagination {
-  margin-bottom: 3rem;
+  margin: 2rem 0;
   a {
     padding: 5px; 
     color: #fff;

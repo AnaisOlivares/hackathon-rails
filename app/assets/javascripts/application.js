@@ -22,4 +22,5 @@ $(document).on('turbolinks:load', function() {
   $('.dropdown-trigger').dropdown();
   $('select').material_select();
   $(".button-collapse").sideNav();
+  $('.carousel').carousel();
 });
