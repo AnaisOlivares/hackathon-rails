@@ -6,7 +6,7 @@
   </ul>
   <nav>
     <div class="nav-wrapper navbar-color">
-      <a href="/" class="brand-logo left">
+      <a href="/" class="brand-logo">
         <%= image_tag("logored.png", :alt => "logo") %>
       </a>
       <ul class="right hide-on-med-and-down">
@@ -21,9 +21,9 @@
     </div>
   </nav>
 
-  <nav>
+  <nav class="tablet-up">
     <div class="nav-wrapper navbar-color row">
-      <ul class="left hide-on-med-and-down main-nav col s12">
+      <ul class="main-nav col s12">
         <% if current_user.customer? %>
           <li class="col s6">
             <a href="<%= customer_home_index_path %>">Home</a>
