@@ -18,15 +18,15 @@
 
   <tbody>
     <% @products.each do |product| %>
-      <tr>
+      <tr class="editbox">
         <td><%= product.name %></td>
         <td><%= image_tag(product.url, :alt => product.name, width:'100') %></td>
         <td><%= product.quantity %></td>
-        <td><%= product.amount %></td>
+        <td><span>$</span><%= product.amount %></td>
         <td><%= product.category.id %></td>
-        <td><%= link_to 'Show', admin_product_path(product) %></td>
-        <td><%= link_to 'Edit', edit_admin_product_path(product) %></td>
-        <td><%= link_to 'Destroy', admin_product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><i class="material-icons">search</i><%= link_to 'Show', admin_product_path(product) %></td>
+        <td><i class="material-icons">edit</i><%= link_to 'Edit', edit_admin_product_path(product)%></td>
+        <td><i class="material-icons">delete</i><%= link_to 'Destroy', admin_product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

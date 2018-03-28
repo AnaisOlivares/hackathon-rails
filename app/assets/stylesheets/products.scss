@@ -4,7 +4,7 @@
 @import "materialize";
 @import "variables";
 
-h4, p {
+h4, p, th, td {
   color: $white-text;
 }
 
@@ -31,6 +31,14 @@ h4, p {
 
 .ml-2{
   margin-top: 2rem;
+}
+
+table {
+  background-color: $productlist-box;
+}
+
+.editbox a {
+ color: $white-text;
 }
 
 @media(min-width: 600px) {
