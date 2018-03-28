@@ -46,6 +46,7 @@
 # 
 
 Rails.application.routes.draw do
+
   devise_for :users
 
   devise_scope :user do
@@ -54,23 +55,18 @@ Rails.application.routes.draw do
     end
   end
 
-  namespace :customer do
-    resources :home, only: [:index]
-    resources :products, only: [:index, :show]
-  end
-
-  namespace :admin do
-    resources :home, only: [:index]
-
-    resources :customers
-    resources :categories
-    resources :products do
-      member do
-        # get :report
-      end
-      collection do
-        # get :report
-      end
+  namespace :lab do
+    namespace :customer do
+      resources :home, only: [:index]
+      resources :products, only: [:index, :show]
+    end
+  
+    namespace :admin do
+      resources :home, only: [:index]
+  
+      resources :customers
+      resources :categories
+      resources :products
     end
   end
 
