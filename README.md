@@ -10,7 +10,7 @@ TECHPOINT es una web donde podrás visualizar el catálogo de productos tecnoló
 ## RETO
 ![image](https://user-images.githubusercontent.com/32307145/38041041-6a920886-3276-11e8-91b6-7dc403f290e8.png)
 ## Proceso de Research
-* [Carpeta Drive](...)
+* [Carpeta Drive](https://drive.google.com/drive/folders/1qxnqfuqS6z_MrGamFfKL5ZbO6tBZGIIk?usp=sharing)
 * #### Entrevistas personales:
   * Realizamos entrevistas 5 personas de las cuales obtuvimos los siguientes insigths:
 > Les interesa mucho la tecnología y siempre acuden a un medio confiable en internet que les ayude a convencerse de qué producto comprar y dueños de negocios esperan tener un software, programa amigable que ellos mismos puedan manejar.
