@@ -31,16 +31,16 @@
  
 # Root crumb
 crumb :root do
-  link "Home", root_path
+  link "Home", lab_admin_home_index_path
 end
  
 # Issue list
-crumb :issues do
-  link "All issues", issues_path
+crumb :products do
+  link "All products", lab_admin_products_path
 end
  
 # Issue
-crumb :issue do |issue|
-  link issue.title, issue
-  parent :issues
+crumb :product do |product|
+  link product.name, product
+  parent :products
 end
