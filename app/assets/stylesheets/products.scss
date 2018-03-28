@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "materialize";
+@import "variables.scss";
 
 .title {
   font-weight: 700;
@@ -9,6 +10,11 @@
 
 .mt-3{
   margin-top: 3rem;
+}
+
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .price {
